@@ -1,0 +1,187 @@
+body{
+    background-color: wheat;
+}
+#b>button
+{   background-color: pink;
+    color: black;
+  font-size: 25px;
+  border-radius: 10px;
+margin-left: 30px;
+margin-top: 20px;
+border: 1px solid black;
+}
+#box
+{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+
+}
+#box:hover
+{
+    width: 250px;
+    background-color: red;
+    transform: skew(20deg)
+    
+}
+
+#circle
+{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+}
+@media (max-width:200px)
+{   
+    .body
+    {
+        background-color: red;
+    }
+}
+#animation
+{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(38, 255, 0);
+  animation: p 3s infinite;  
+
+
+}
+@keyframes p{
+    0%{
+        transform: rotateZ(0deg);
+    }
+    100%
+    {
+        transform: rotateZ(50deg);
+    }
+}
+#bg{
+   display: inline;
+}
+
+#text>.second{
+    color: tomato;
+}
+#left{
+    float: right;
+}
+#left ul li
+{   
+    list-style-type: none;
+    display: inline-block;
+    color: red;
+    padding: 20px;
+ 
+}
+.flex-container
+
+{  
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 30px;
+    font-size: 20px;
+    
+
+}
+.box1
+{
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 200px;
+    margin: 2px;
+    border-radius: 5px;
+    
+}
+.replicate>button
+{   background-color: red;
+    width: 200px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 15px;
+
+}
+@media( max-width:400px) 
+{
+    .replicate>button
+    {   
+        background-color: yellow;
+    }
+}
+.container
+{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 30px;
+
+}
+.flex-item
+{   width: 200px;
+    height: 200px;
+    background-color: aqua;
+    margin: 15px;
+    border-radius: 20px;
+    
+
+}
+.imple
+{   background-color: yellow;
+    width: 100px;
+    height: 100px;
+    transition: 1s linear ;
+    
+}
+.imple:hover
+{
+    width: 250px;
+    height: 200px;
+    background-color: green;
+   
+
+}
+.grid-container
+{ display: grid;
+    background-color: black;
+    color: white;
+  height: 700px;  
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+ line-height: 100px;
+ 
+
+
+}
+.grid-item{
+    background-color: blue;
+    width: 150px;
+    margin: 5px;
+    height: 100px;
+    border-radius: 20px;
+}
+@media (max-width:900px)
+
+{ .main-container
+    {
+    background-color: rgb(255, 71, 5);
+    
+}
+
+}
+@media( max-width:450px)
+{
+    .main-container{
+        background-color: aquamarine;
+    }
+}
+
